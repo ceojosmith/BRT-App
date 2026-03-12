@@ -21,6 +21,13 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Prepare www folder
+        run: |
+          mkdir -p www
+          cp index.html www/
+          cp script.js www/
+          cp style.css www/
+
       - name: Install dependencies
         run: npm install
 
