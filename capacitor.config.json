@@ -1,0 +1,11 @@
+{
+  "appId": "tm.brt.app",
+  "appName": "BRT App",
+  "webDir": ".",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "overScrollMode": "never"
+  }
+}
