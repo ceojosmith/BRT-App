@@ -1,8 +1,0 @@
-{
-  "appId": "tm.brt.app",
-  "appName": "BRT App",
-  "webDir": "www",
-  "android": {
-    "overScrollMode": "never"
-  }
-}
